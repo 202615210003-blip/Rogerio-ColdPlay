@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A história do Coldplay: de uma amizade na faculdade em Londres aos maiores estádios do mundo.">
+  <title>Coldplay | Sobre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo__conteudo">
+      <a class="topo__logo" href="index.html">Coldplay</a>
+
+      <!-- Menu hambúrguer do celular feito só com CSS (checkbox + label), sem JavaScript -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-botao" aria-label="Abrir ou fechar o menu"><span></span></label>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html" class="ativo" aria-current="page">Sobre</a></li>
+          <li><a href="turne.html">Turnê</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero--pagina">
+      <div class="container">
+        <h1>Nossa História</h1>
+        <p>De uma amizade na faculdade a estádios lotados no mundo todo.</p>
+      </div>
+    </section>
+
+    <section class="secao secao--cinza">
+      <div class="container">
+
+        <article class="historia-bloco">
+          <img src="imgs/coldplay-1996.jpeg"  width="900" height="700">
+          <div>
+            <span class="historia-bloco__ano">1996</span>
+            <h2>Tudo começou em Londres</h2>
+            <p>Chris Martin e Jonny Buckland se conheceram na faculdade, em Londres, e começaram a tocar juntos. Pouco depois, Guy Berryman e Will Champion se juntaram ao grupo, formando a banda que conhecemos hoje. Em 1998, o grupo adotou o nome Coldplay.</p>
+          </div>
+        </article>
+
+        <article class="historia-bloco historia-bloco--invertido">
+          <img src="imgs/coldplay-2000.jpeg" width="900" height="700">
+          <div>
+            <span class="historia-bloco__ano">2000</span>
+            <h2>A estreia com Parachutes</h2>
+            <p>O álbum de estreia chegou em 2000, com o sucesso "Yellow". O disco apresentou ao mundo a sonoridade delicada e melódica da banda e abriu caminho para os primeiros grandes prêmios, incluindo o Grammy.</p>
+          </div>
+        </article>
+
+        <article class="historia-bloco">
+          <img src="imgs/coldplay-2008.jpeg"width="900" height="700">
+          <div>
+            <span class="historia-bloco__ano">2008</span>
+            <h2>Viva la Vida e os grandes estádios</h2>
+            <p>Com "Viva la Vida", a banda ampliou o seu som e passou a lotar estádios em vários países. Músicas como "The Scientist" e "Fix You" já eram cantadas em coro pelo público, e os shows ficaram cada vez maiores.</p>
+          </div>
+        </article>
+
+        <article class="historia-bloco historia-bloco--invertido">
+          <img src="imgs/hj em dia.jpeg" width="900" height="700">
+          <div>
+            <span class="historia-bloco__ano">Hoje</span>
+            <h2>Luz, cor e energia</h2>
+            <p>Com o álbum "Music of the Spheres", de 2021, a banda segue encantando o mundo com turnês grandiosas. Os shows são conhecidos pelas pulseiras luminosas que acendem em sintonia com a música e transformam o estádio em um mar de luz.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="secao secao--branca">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Os integrantes</span>
+          <h2 class="titulo">Quem faz a banda</h2>
+        </div>
+
+        <div class="grade-cartoes">
+          <article class="cartao">
+            <h3>Chris Martin</h3>
+            <p class="cartao__funcao">Vocal, piano e guitarra</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Jonny Buckland</h3>
+            <p class="cartao__funcao">Guitarra</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Guy Berryman</h3>
+            <p class="cartao__funcao">Baixo</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Will Champion</h3>
+            <p class="cartao__funcao">Bateria e percussão</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao--azul">
+      <div class="container chamada">
+        <h2 class="titulo">Conheça os álbuns da banda</h2>
+        <p>Do primeiro disco aos lançamentos mais recentes, veja a discografia completa.</p>
+        <a href="discografia.html" class="botao">Ver Discografia</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Coldplay &copy; 2024 &mdash; Todos os direitos reservados</p>
+      <small>Projeto escolar sem fins comerciais. Não é o site oficial da banda.</small>
+    </div>
+  </footer>
+
+</body>
+</html>

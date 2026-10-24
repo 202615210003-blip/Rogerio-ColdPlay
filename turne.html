@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Próximos shows do Coldplay: São Paulo, Rio de Janeiro e Curitiba.">
+  <title>Coldplay | Turnê</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo__conteudo">
+      <a class="topo__logo" href="index.html">Coldplay</a>
+
+      <!-- Menu hambúrguer do celular feito só com CSS (checkbox + label), sem JavaScript -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-botao" aria-label="Abrir ou fechar o menu"><span></span></label>
+
+      <nav class="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="turne.html" class="ativo" aria-current="page">Turnê</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero hero--pagina">
+      <div class="container">
+        <h1>Turnê</h1>
+        <p>Viva a experiência ao vivo.</p>
+      </div>
+    </section>
+
+    <section class="secao secao--cinza">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Próximos shows</span>
+          <h2 class="titulo">Escolha a sua cidade</h2>
+        </div>
+
+        <div class="lista-shows">
+          <article class="show">
+            <div>
+              <h3>São Paulo</h3>
+              <p><time datetime="2025-03-15">15 de Março, 2025</time></p>
+            </div>
+            <a href="https://www.coldplay.com/" class="botao botao--contorno" target="_blank" rel="noopener" aria-label="Ingressos para o show em São Paulo">Ingressos</a>
+          </article>
+
+          <article class="show">
+            <div>
+              <h3>Rio de Janeiro</h3>
+              <p><time datetime="2025-03-18">18 de Março, 2025</time></p>
+            </div>
+            <a href="https://www.coldplay.com/" class="botao botao--contorno" target="_blank" rel="noopener" aria-label="Ingressos para o show no Rio de Janeiro">Ingressos</a>
+          </article>
+
+          <article class="show">
+            <div>
+              <h3>Curitiba</h3>
+              <p><time datetime="2025-03-22">22 de Março, 2025</time></p>
+            </div>
+            <a href="https://www.coldplay.com/" class="botao botao--contorno" target="_blank" rel="noopener" aria-label="Ingressos para o show em Curitiba">Ingressos</a>
+          </article>
+        </div>
+
+        <p class="aviso">As cidades e datas desta página são ilustrativas (projeto escolar).</p>
+      </div>
+    </section>
+
+    <section class="secao secao--branca">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">No show</span>
+          <h2 class="titulo">Como é um show do Coldplay</h2>
+        </div>
+
+        <div class="grade-cartoes">
+          <article class="cartao">
+            <h3>Pulseiras luminosas</h3>
+            <p>O público ganha pulseiras que acendem em sintonia com a música e transformam o estádio em um mar de luz.</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Luzes e telões</h3>
+            <p>Efeitos de luz, lasers e telões gigantes acompanham cada música do início ao fim.</p>
+          </article>
+
+          <article class="cartao">
+            <h3>Clássicos e novidades</h3>
+            <p>O repertório mistura sucessos como "Yellow" e "Fix You" com músicas dos álbuns mais recentes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Coldplay &copy; 2024 &mdash; Todos os direitos reservados</p>
+      <small>Projeto escolar sem fins comerciais. Não é o site oficial da banda.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
